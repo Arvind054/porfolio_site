@@ -1,0 +1,49 @@
+.Education{
+    gap: 80px;
+    margin: 80px 170px;
+    margin-bottom: 170px;
+}
+.Education-title h1{
+   text-align: center;
+   margin: 80px 170px;
+    padding: 0px 30px;
+    font-size: 50px;
+    font-weight: 600;
+    background: linear-gradient(270deg, #8800ff, #f903e9);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sub-Education{
+   font-family: outfit;
+   margin: 50px 20px;
+}
+.sub-Education h1{
+    font-size: 25px;
+}
+.sub-Education-part{
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+@media(max-width: 768px){
+    .Education{
+        gap: 40px;
+        margin: 50px 50px;
+        align-items: start;
+        margin-bottom: 120px;
+    }
+    .Education-title h1{
+        text-align: start;
+        font-size: 50px;
+        margin: 0px;
+    }
+    .sub-Education h1{
+      font-size: 20px;
+    }
+    .sub-Education-part{
+        font-size: 15px;
+        margin: 10px 0px;
+       
+    }
+}
